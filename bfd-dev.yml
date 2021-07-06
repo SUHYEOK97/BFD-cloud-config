@@ -1,6 +1,11 @@
 token:
   expiration_time: 8640000
   secret: user_token_dev
-
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/test?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: '{chiper}44a6a7bda53d4ae574043cbfddaba9c6c19578ecfc4691d3454f7b446e996a61'
 gateway:
   ip: 192.168.0.8
