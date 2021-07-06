@@ -9,3 +9,5 @@ spring:
     password: "{cipher}76432305ef5aa837c0eb53a174a7c43beb382bfc0f795c82d24e6b84ecaccfe7"
 gateway:
   ip: 192.168.0.8
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
