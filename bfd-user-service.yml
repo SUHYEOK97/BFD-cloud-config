@@ -12,5 +12,4 @@ spring:
     # url: jdbc:mariadb://mariadb:3306/bfd_user_service?serverTimezone=UTC&characterEncoding=UTF-8
     url: jdbc:mariadb://127.0.0.1:3306/bfd_user_service?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
-    # password: "{cipher}76432305ef5aa837c0eb53a174a7c43beb382bfc0f795c82d24e6b84ecaccfe7"
-    # password: root
+    password: "{cipher}76432305ef5aa837c0eb53a174a7c43beb382bfc0f795c82d24e6b84ecaccfe7"
