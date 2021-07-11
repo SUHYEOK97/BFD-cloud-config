@@ -7,11 +7,7 @@ order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
 spring:
   datasource:
-    
-    # driver-class-name: org.mariadb.jdbc.Driver
-     # url: jdbc:mariadb://mariadb:3306/bfd_user_service?serverTimezone=UTC&characterEncoding=UTF-8
-     
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/bfd_user_service?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://mariadb:3306/bfd_user_service?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: "{cipher}76432305ef5aa837c0eb53a174a7c43beb382bfc0f795c82d24e6b84ecaccfe7"
